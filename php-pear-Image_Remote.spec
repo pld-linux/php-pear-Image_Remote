@@ -1,6 +1,8 @@
 %include	/usr/lib/rpm/macros.php
 %define		_class		Image
 %define		_subclass	Remote
+%define		_status		beta
+
 %define		_pearname	%{_class}_%{_subclass}
 Summary:	%{_pearname} - Retrieve information on remote image files
 Summary(pl):	%{_pearname} - otrzymywanie informacji o zdalnych rysunkach
@@ -20,9 +22,13 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 This class can be used for retrieving size information of remote image
 files via http without downloading the whole image.
 
+This class has in PEAR status: %{_status}
+
 %description -l pl
 Dzieki tej klasie mo¿na uzyskaæ informacje o zdalnym obrazku poprzez
 http bez ¶ci±gania ca³ego rysunku.
+
+Ta klasa ma w PEAR status: %{_status}
 
 %prep
 %setup -q -c
