@@ -33,6 +33,7 @@ Ta klasa ma w PEAR status: %{_status}.
 
 %prep
 %setup -q -c
+mv -f %{_pearname}-%{version}/package.xml .
 
 %install
 rm -rf $RPM_BUILD_ROOT
