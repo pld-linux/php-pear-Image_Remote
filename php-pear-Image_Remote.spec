@@ -23,7 +23,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 This class can be used for retrieving size information of remote image
 files via http without downloading the whole image.
 
-This class has in PEAR status: %{_status}.
+In PEAR status of this package is: %{_status}.
 
 %description -l pl
 Dzieki tej klasie mo¿na uzyskaæ informacje o zdalnym obrazku poprzez
