@@ -2,8 +2,8 @@
 %define		_class		Image
 %define		_subclass	Remote
 %define		_pearname	%{_class}_%{_subclass}
-Summary:	%{_class}_%{_subclass} - Retrieve information on remote image files
-Summary(pl):	%{_class}_%{_subclass} - otrzymywanie informacji o zdalnych rysunkach
+Summary:	%{_pearname} - Retrieve information on remote image files
+Summary(pl):	%{_pearname} - otrzymywanie informacji o zdalnych rysunkach
 Name:		php-pear-%{_pearname}
 Version:	1.0
 Release:	1
