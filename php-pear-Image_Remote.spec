@@ -7,13 +7,12 @@
 Summary:	%{_pearname} - Retrieve information on remote image files
 Summary(pl):	%{_pearname} - otrzymywanie informacji o zdalnych rysunkach
 Name:		php-pear-%{_pearname}
-Version:	1.0
-Release:	4
+Version:	1.0.1
+Release:	1
 License:	PHP 2.02
 Group:		Development/Languages/PHP
-#Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-Source0:	%{_pearname}-%{version}.tgz
-# Source0-md5:	492f387fc4c2a9dff4ac3baa78d7c133
+Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
+# Source0-md5:	e29669bb81db59959cc11d830318b455
 URL:		http://pear.php.net/package/Image_Remote/
 BuildRequires:	rpm-php-pearprov >= 4.4.2-12
 Requires:	php-pear
