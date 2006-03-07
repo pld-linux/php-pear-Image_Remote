@@ -14,6 +14,7 @@ Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
 # Source0-md5:	e29669bb81db59959cc11d830318b455
 URL:		http://pear.php.net/package/Image_Remote/
+BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-12
 Requires:	php-pear
 BuildArch:	noarch
