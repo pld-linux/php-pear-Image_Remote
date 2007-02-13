@@ -5,7 +5,7 @@
 
 %define		_pearname	%{_class}_%{_subclass}
 Summary:	%{_pearname} - Retrieve information on remote image files
-Summary(pl.UTF-8):   %{_pearname} - otrzymywanie informacji o zdalnych rysunkach
+Summary(pl.UTF-8):	%{_pearname} - otrzymywanie informacji o zdalnych rysunkach
 Name:		php-pear-%{_pearname}
 Version:	1.0.1
 Release:	3
